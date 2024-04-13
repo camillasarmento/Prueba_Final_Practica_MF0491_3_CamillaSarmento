@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Contenido Nutricional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Calculadora de Nutrientes</h1>
+</header>
+<main>
+    <section id="alimentos">
+        <h2>Seleccione sus alimentos</h2>
+        <!-- Se insertarán los campos de entrada dinámicamente mediante JavaScript -->
+        <button id="agregar-alimento">Agregar Alimento</button>
+    </section>
+    <section>
+        <button id="calcular-calorias">Calcular Calorías</button>
+        <section id="resultados">
+
+            <!-- Aquí se mostrarán los resultados -->
+        </section>
+    </section>
+
+    <section id="comparacion">
+        <div>
+            <label for="comparacionCalorias">¿Estás excediendo su objetivo calórico?</label>
+            <input type="text" id="comparacionCalorias" name="comparacionCalorias" placeholder="Ingrese las calorías">
+            <button id="calcular-comparacion">Calcular</button>
+        </div>
+        <section id="resultadosComparacion">
+            <!-- Aquí se mostrarán los resultados -->
+        </section>
+    </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
+
